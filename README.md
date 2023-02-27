@@ -22,5 +22,7 @@ https://youtu.be/pVbT-tkx3Xo
 
 ## 📋 AWS IAM
 
+https://youtu.be/tAMhX9nrwcU
+
 ## 🙌 AWS S3
 (Simple Storage Service)
