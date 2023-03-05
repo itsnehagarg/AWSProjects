@@ -95,7 +95,9 @@ Now, open the tomcat-users.xml. We can use vi editor for this task.
 vi tomcat-users.xml
 ```
 Add the following code to this file for creating the user and assigning the role for using Manager App in GUI for deploying the application:
+```
 <user username="your-username" password="your-password" roles="manager-gui"/>
+```
 
 
 ### 📸Step 5: Remove default localhost URL in Tomcat settings
