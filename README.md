@@ -6,6 +6,8 @@ Amazon Web Services (AWS) is a cloud computing platform that provides a wide ran
 * [AWS Budgets](#aws-budgets)
 * [AWS IAM](#aws-iam)
 * [AWS S3](#aws-s3)
+* [AWS VPC](#aws-vpc)
+* [AWS Security Groups](#aws-security-groups)
 * [Audience](#audience)
 * [Contents - Features](#contents-features)
 * [Requirements](#Requirements)
@@ -28,3 +30,15 @@ https://youtu.be/tAMhX9nrwcU
 (Simple Storage Service)
 
 https://www.youtube.com/watch?v=W-nqRqMUKAY
+
+
+## ⚒️ AWS VPC
+
+## ✌️AWS Security Groups
+
+
+## Audience
+Anybody who would loves to explore cloud projects 🤩 can check the videos and the ReadMe details I am adding to this ReadMe file 👩‍💻
+
+## Contributors
+Neha Garg
