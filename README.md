@@ -26,3 +26,5 @@ https://youtu.be/tAMhX9nrwcU
 
 ## 🙌 AWS S3
 (Simple Storage Service)
+
+https://www.youtube.com/watch?v=W-nqRqMUKAY
