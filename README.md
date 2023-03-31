@@ -8,6 +8,7 @@ Amazon Web Services (AWS) is a cloud computing platform that provides a wide ran
 * [AWS S3](#aws-s3)
 * [AWS VPC](#aws-vpc)
 * [AWS Security Groups](#aws-security-groups)
+* [AWS EC2](#aws-ec2)
 * [Audience](#audience)
 * [Contents - Features](#contents-features)
 * [Requirements](#Requirements)
@@ -35,6 +36,8 @@ https://www.youtube.com/watch?v=W-nqRqMUKAY
 ## ⚒️ AWS VPC
 
 ## ✌️AWS Security Groups
+
+## AWS EC2
 
 
 ## Audience
