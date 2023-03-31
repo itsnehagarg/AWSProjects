@@ -1,5 +1,7 @@
 # ⚒️ Deploying Web Application on AWS Elastic Cloud Compute(EC2) instance
 
+Watch our YouTube video on this topic: https://youtu.be/xd_FjQClc7M
+
 In this ReadMe, I will share the steps to deploy a Spring Boot web application on Amazon EC2 instance.
 
 
