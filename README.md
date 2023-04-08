@@ -39,9 +39,9 @@ https://www.youtube.com/watch?v=W-nqRqMUKAY
 
 ## AWS EC2
 
- Deploying Web Application on AWS Elastic Cloud Compute(EC2) instance  (https://github.com/itsnehagarg/AWSProjects/blob/main/EC2/DeploywebapponEC2.md)
+ [Deploying Web Application on AWS Elastic Cloud Compute(EC2) instance](https://github.com/itsnehagarg/AWSProjects/blob/main/EC2/DeploywebapponEC2.md)
 
- Installing Docker on an Amazon Linux EC2 Instance  (https://github.com/itsnehagarg/AWSProjects/blob/main/EC2/InstallDockeronEC2.md)
+ [Installing Docker on an Amazon Linux EC2 Instance](https://github.com/itsnehagarg/AWSProjects/blob/main/EC2/InstallDockeronEC2.md)
 
 
 ## Audience
