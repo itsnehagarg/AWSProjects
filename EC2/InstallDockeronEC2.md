@@ -27,7 +27,7 @@ sudo yum update -y
 sudo yum install -y docker
 ```
 
-### 👩‍💻Step 4: After the installation is complete, start the Docker service using the following command:
+### 🔦 Step 4: After the installation is complete, start the Docker service using the following command:
 
 ```sh
 sudo service docker start
@@ -36,7 +36,7 @@ sudo service docker start
 
 
 
-### 👩‍💻Step 5: To verify that Docker is installed correctly, run the following command to check the version:
+### ✌️Step 5: To verify that Docker is installed correctly, run the following command to check the version:
 
 ```sh
 docker --version
