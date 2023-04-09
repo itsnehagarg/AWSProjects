@@ -32,15 +32,25 @@ sudo yum install -y docker
 ```sh
 sudo service docker start
 ```
-sudo service docker start
-
 
 
 ### ✌️Step 5: To verify that Docker is installed correctly, run the following command to check the version:
 
 ```sh
-docker --version
+sudo docker --version
 ```
 
 This should install Docker on your EC2 instance and allow you to start using it.
 
+You can also use the below commands to check if the docker is in active status or not on your machine:
+
+```sh
+sudo systemctl is-active docker
+```
+
+To get info about the docker:
+
+
+```sh
+sudo docker info
+```
