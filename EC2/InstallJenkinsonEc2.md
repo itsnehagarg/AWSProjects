@@ -45,7 +45,7 @@ sudo dnf install java-11-amazon-corretto -y
 ```
 
 
-## Step5 Install Jenkins:
+## Step 5: Install Jenkins:
 
 ```sh 
 sudo yum install jenkins -y
@@ -69,7 +69,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 ```
 
-## Step 5: Access Jenkins
+## Step 9: Access Jenkins
 
 Jenkins will be available on port 8080 of your EC2 instance's public IP address. To access Jenkins, open a web browser and navigate to `http://[your-ec2-instance-public-ip]:8080`. You will be prompted to enter an initial admin password, which can be found in the file `/var/lib/jenkins/secrets/initialAdminPassword` on your EC2 instance.
 
