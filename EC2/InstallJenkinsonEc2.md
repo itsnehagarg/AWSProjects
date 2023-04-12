@@ -14,18 +14,21 @@ Before you begin, you'll need the following:
 
 First, connect to your EC2 instance via SSH and update your system packages:
 
-`` 
-sudo yum update –y``
+```sh
+sudo yum update -y
+```
 
 ## Step2 : Add the Jenkins repo using the following command:
 
-[ec2-user ~]$ sudo wget -O /etc/yum.repos.d/jenkins.repo \
-    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+```sh sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo 
+```
 
 ## Step 3: Import a key file from Jenkins-CI to enable installation from the package:
 
-[ec2-user ~]$ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
-[ec2-user ~]$ sudo yum upgrade
+```sh sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum upgrade
+```
 
 
 ## Step 4a : Install Java (Amazon Linux 2):
