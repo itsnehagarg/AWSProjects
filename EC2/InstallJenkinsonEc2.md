@@ -73,4 +73,5 @@ sudo systemctl status jenkins
 
 Jenkins will be available on port 8080 of your EC2 instance's public IP address. To access Jenkins, open a web browser and navigate to `http://[your-ec2-instance-public-ip]:8080`. You will be prompted to enter an initial admin password, which can be found in the file `/var/lib/jenkins/secrets/initialAdminPassword` on your EC2 instance.
 
+![Jenkins_On_EC2](images/jenkinsonEC2.png)
 That's it! You now have Jenkins installed and running on your AWS EC2 instance.🙌✌️
