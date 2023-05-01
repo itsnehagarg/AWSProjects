@@ -78,3 +78,9 @@ Jenkins will be available on port 8080 of your EC2 instance's public IP address.
 
 
 That's it! You now have Jenkins installed and running on your AWS EC2 instance.🙌✌️
+
+## command to Stop Jenkins as a service:
+
+```sh 
+sudo systemctl stop jenkins
+```
