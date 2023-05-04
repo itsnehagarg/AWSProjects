@@ -10,6 +10,99 @@ Before getting started, make sure you have the following:
 - Docker and Jenkins installed on the EC2 instance
 - A Django application ready for deployment
 
+## Lets install the required tools on EC2 for this deployment:
+
+# GitHub
+
+```sh
+sudo yum install git
+```
+
+# Django
+```sh
+	sudo yum install python3-pip
+	pip install django
+	python3 manage.py migrate
+  python manage.py runserver 0.0.0.0:8001
+```
+
+# Docker
+
+```sh
+sudo yum install -y docker
+```
+
+### After the installation is complete, start the Docker service using the following command:
+
+```sh
+sudo service docker start
+```
+
+
+### To verify that Docker is installed correctly, run the following command to check the version:
+
+```sh
+sudo docker --version
+```
+
+This should install Docker on your EC2 instance and allow you to start using it.
+
+You can also use the below commands to check if the docker is in active status or not on your machine:
+
+```sh
+sudo systemctl is-active docker
+```
+# Jenkins
+
+```sh 
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+https://pkg.jenkins.io/redhat-stable/jenkins.repo 
+```
+
+## Import a key file from Jenkins-CI to enable installation from the package:
+
+```sh 
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum upgrade
+```
+
+
+## Install Java (Amazon Linux 2):
+```sh 
+sudo amazon-linux-extras install java-openjdk11 -y
+```
+
+## Install Java (Amazon Linux 2023):
+
+```sh 
+sudo dnf install java-11-amazon-corretto -y
+```
+
+
+## Install Jenkins:
+
+```sh 
+sudo yum install jenkins -y
+```
+
+## Enable the Jenkins service to start at boot:
+
+```sh 
+sudo systemctl enable jenkins
+```
+
+## Start Jenkins as a service:
+
+```sh 
+sudo systemctl start jenkins
+```
+
+## You can check the status of the Jenkins service using the command:
+
+```sh 
+sudo systemctl status jenkins
+```
+
 ## Deploying a Django Application on EC2
 
 To deploy your Django application on the EC2 instance, follow these steps:
