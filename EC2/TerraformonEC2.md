@@ -75,3 +75,49 @@ terraform validate
    ```
  terraform apply
  ```
+ 
+ ### Created a docker tf file
+ 
+ Made changes to docker_terraform.tf
+
+terraform {
+  required_providers {
+    docker = {
+      source  = "kreuzwerker/docker"
+      version = "~> 2.13.0"
+    }
+  }
+}
+provider "docker" {}
+resource "docker_image" "nginx" {
+  name         = "nginx:latest"
+  keep_locally = false
+}
+resource "docker_container" "nginx" {
+  image = docker_image.nginx.image_id
+  name  = "tutorial"
+  ports {
+    internal = 80
+    external = 80
+  }
+}
+
+ 
+ 
+ ### Install docker
+ ```
+ sudo apt-get install docker.io
+ 
+ sudo chown $USER /var/run/docker.sock
+  ```
+   ```
+ terraform init
+ 
+ terraform plan
+ 
+ terraform validate
+  ```
+ ### Final command
+  ```
+ terraform apply
+  ```
