@@ -20,15 +20,19 @@ Bash script code:
 # This script describes the AWS resource usage
 ################
 #### #list s3 buckets
+echo "Print list s3 buckets"
 aws s3 ls
 
 #### #list EC2 instances
+echo "Print list EC2 instances"
 aws ec2 describe-instances
 
 # list Lambda functions
+echo "Print list Lambda functions"
 aws lambda list-functions
 
 # list IAM users
+echo "Print list  IAM users"
 aws iam list-users
 
 
