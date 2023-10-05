@@ -43,6 +43,10 @@ chmod 777 aws-script.sh
 ./aws-script.sh
 ```
 
+```
+./aws-script.sh | more
+```
+
 ### Commands used in bash script
 
 #### #list s3 buckets
