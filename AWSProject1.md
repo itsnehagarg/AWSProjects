@@ -23,20 +23,19 @@ set -x
 
 #list s3 buckets
 echo "Print list s3 buckets"
-aws s3 ls
+aws s3 ls > resourceTracker
 
 #### #list EC2 instances
 echo "Print list EC2 instances"
-aws ec2 describe-instances
+aws ec2 describe-instances > resourceTracker
 
 # list Lambda functions
 echo "Print list Lambda functions"
-aws lambda list-functions
+aws lambda list-functions > resourceTracker
 
 # list IAM users
 echo "Print list  IAM users"
-aws iam list-users
-
+aws iam list-users > resourceTracker
 
 ```
 
@@ -63,6 +62,12 @@ aws ec2 describe-instances
 
 #### list Lambda functions
 aws lambda list-functions
+
+#### Using jq json parser
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
+
+
+We are yet to integrate the script with crontab for scheduling it on regular basis.
 
 
 
