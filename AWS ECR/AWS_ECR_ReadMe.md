@@ -5,4 +5,7 @@
 #### 🌼Steps to be followed:
 
 1. Install AWS CLI on your local machine.
-
+2. Configure AWS CLI using the below command:
+`` aws configure
+``
+3. 
