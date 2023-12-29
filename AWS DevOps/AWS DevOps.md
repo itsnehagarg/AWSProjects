@@ -12,7 +12,7 @@ Steps involved:
 1. Code Commit Repo is similar to Github repo and developer commits the code to Code Commit Repo.
 2. Once the code is committed it needs to build, test and deployed so, Code Build service will be responsible for building the code.
 3. Once the code is build successfully then the artifact will be placed in AWS CodeArtifact service.
-4. 
+4. Code Deploy will help us in deploying the code on one of the services  EC2, ECS or Lambda.
 
 
    
