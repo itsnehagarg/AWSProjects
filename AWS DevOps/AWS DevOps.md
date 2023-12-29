@@ -4,7 +4,7 @@ Services used:
 
 1. AWS IAM & AWS KMS (Security related- Authentication / Authorization services)
 3. AWS CodeArtifact & S3 (Storage services)
-4. CodeCommit, Code Build, Code Deploy & Code Pipeline (DevOps services)
+4. CodeCommit, CodeBuild, Code Deploy & Code Pipeline (DevOps services)
 5. EC2, ECS and Lambda (Deployment services)
 
 Steps involved:
@@ -14,6 +14,11 @@ Steps involved:
 3. Once the code is build successfully then the artifact will be placed in AWS CodeArtifact service.
 4. Code Deploy will help us in deploying the code on one of the services  EC2, ECS or Lambda.
 5. Now use Code Pipeline to Automate continuous delivery pipelines for fast and reliable updates.
+
+   Free-tier:
+
+   - Anyone with an AWS account can get started with AWS CodeCommit for free. Your account gets 5 active users per month for free (within limits), after which you pay $1.00 per additional active user per month. There are no upfront fees or commitments.
+   - The AWS CodeBuild free tier includes 100 total build minutes per month with the general1.small or arm1.small instance types using on-demand EC2.
 
 ### CodeCommit
 
@@ -36,6 +41,13 @@ git clone URL copied
 
 9. Push the code on CodeCommit repo.
 ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/e79c9558-dd8b-4dac-8e35-ab692f959515)
+
+
+## CodeBuild
+
+1. Enter following details: Project name, Source 1 - Primary- CodeCommit, Repository-test-app, Branch- master, Operating system- Ubuntu, Runtime(s)- Standard, Image- latest one,
+2. Create a Build specifications file. buildspec.yml
+3. Create build project.
 
 
 
