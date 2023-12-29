@@ -8,4 +8,6 @@
 - AWS provides 2 options for the worker nodes namely, EC2 & Fargate(Fargate is a serverless compute services that allows us to run the containers).
 - 2 ways of installing K8s on AWS cloud: 1) Create EC2 instances and use some tools such as KOPS, kubeadm etc to setup cluster on AWS without using EKS. 2) Use EKS
 - Other way to use K8s is to setup K8s cluster on on-premise servers/ data centre (without using cloud).
+- Any controller in K8s is a pod.
+- ALB Ingress Controller will create an application load balancer for us and for that it has to talk to AWS APIs. So, we will create an IAM policy and IAM role as well.
 - 
