@@ -43,6 +43,13 @@
 
 19. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/5db8e388-d4a9-40a0-9688-50a6bb61fc71)
 20. Next is Resource clean up in AWS.
+21. Monitor the Cloudwatch logs.
+22. Go to Lambda
+23. Click on Monitor-> View CloudWatch logs
+24. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/1ff21a50-5b61-4116-b4b3-5d4feb787821)
+
+25. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/5b14f3ed-5468-4035-9d4c-273c0504e8da)
+
 
 
 
