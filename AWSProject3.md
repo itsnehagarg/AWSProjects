@@ -21,7 +21,7 @@
 
 ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/2e22c988-af80-45db-a695-105585000489)
 
-7. 
+7. REST APIs can be tested with the respective endpoints that are created.
 
 
 
