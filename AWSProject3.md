@@ -22,6 +22,31 @@
 ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/2e22c988-af80-45db-a695-105585000489)
 
 7. REST APIs can be tested with the respective endpoints that are created.
+8. generate a jar file by running your java code.
+9. Go to AWS Lambda and deploy the jar file.
+10. Go to Code-> Upload From-> .zip or .jar file
+11. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/f3fe4404-3e93-47eb-a68a-c9866c696ac6)
+12. Now go to runtime settings and change the handler.
+13. Change handler by clicking on Edit: com.app.easy2excel.LambdaHandler::handleRequest (packagename.classname::functioname)
+14. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/10db074b-6cfe-4619-8bfd-0141290c9797)
+15. Now we will take the endpoints from API gateway and start using them on POSTMAN.
+16. Start by POST request and pass the json object in the body.
+    {
+    "empId": "101",
+    "name": "Neha",
+    "email": "itsnehagarg"
+
+}
+17. Check the DynamoDB for data
+18. Click on Explore Table Items.
+![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/5e68444d-9501-4cd1-823d-f1ef1f3d7f49)
+
+19. ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/5db8e388-d4a9-40a0-9688-50a6bb61fc71)
+20. Next is Resource clean up in AWS.
+
+
+
+
 
 
 
