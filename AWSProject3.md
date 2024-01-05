@@ -1,9 +1,11 @@
 # Building a Serverless Data Pipeline: DynamoDB, Lambda, and API Gateway
 
-### Step 1: Create a DynamoDB table
-### Step 2: Create a Lambda function
-### Step 3: Create an IAM ROLE and assign it to Lambda function
-### Step 4:Create resources and methods in API Gateway
+Step 1: Create a DynamoDB table
+Step 2: Create a Lambda function
+Step 3: Create an IAM ROLE and assign it to Lambda function
+Step 4:Create resources and methods in API Gateway
+
+
 
 ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/d721e53b-0bbd-46e1-83af-2ada0f109cde)
 
