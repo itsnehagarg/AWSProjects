@@ -11,10 +11,7 @@
 
 - Click on manage detailed monitoring and Enable it
 
-- ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/b2bc2abb-5fcc-4e73-b581-39491540b263)
 
-
-- 
 
 
 
