@@ -8,6 +8,8 @@
 
 - ![image](https://github.com/itsnehagarg/AWSProjects/assets/20385826/b2bc2abb-5fcc-4e73-b581-39491540b263)
 
+- One can configure rules in AWS Config which helps in defining Complaint and Non-Complaint resources.
+
 
 
 
